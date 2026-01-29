@@ -1,0 +1,39 @@
+.App {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #D4AF37, #C0C0C0);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #C0C0C0, #D4AF37);
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+    background-color: #D4AF37;
+    color: #000;
+}
+
+::-moz-selection {
+    background-color: #D4AF37;
+    color: #000;
+}
